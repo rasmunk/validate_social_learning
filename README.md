@@ -6,8 +6,8 @@ A simulation/replication of the experiment presented in http://www.cs.vu.nl/~gus
 The properties used for the setup in the paper can be found at /src/roborobo/config/sociallearning.properties
 
 # Dependencies
-Boost system
-SDL2
+- Boost system
+- SDL2
 
 # TODO
 - Change the stupid way in which the evaluators each consumes a thread, 
