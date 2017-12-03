@@ -32,7 +32,10 @@
 *.app
 
 .DS_Store
-logs/
+src/roborobo/logs/*
+# Need the folder to place logs upon run
+!src/roborobo/logs/.gitkeep
+
 cmake-build-debug/
 cmake-build-release/
 bin/
