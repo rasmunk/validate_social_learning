@@ -5,14 +5,14 @@ A simulation/replication of the experiment presented in http://www.cs.vu.nl/~gus
 
 The properties used for the setup in the paper can be found at /src/roborobo/config/sociallearning.properties
 
-# Dependencies
+#### Dependencies
 - Boost system
 - SDL2
 
-# TODO
+#### TODO
 - Change the stupid way in which the evaluators each consumes a thread, 
 should only be 1 that evaluates every robot instead of the other way around.
 - Furthermore, remove the dirty hack with tying motor speed to fps (Stupid)
 
-# Potential change
+#### Potential change
 Instead of creating an Input node for each sensor, instead use the original setup and then accumulate the sensor input of the additional sensors so it dosen't alter the original design.
